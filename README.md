@@ -10,4 +10,4 @@ Made in Node.js and React.js/Redux.js.
 Quick rundown is shown in the video below:
 
 
-[![Babylon](https://www.youtube.com/upload_thumbnail?v=_T07_RPgyNc&t=3)](https://youtu.be/_T07_RPgyNc "BABYLON PRESENTATION")
+[![Babylon](https://i.ytimg.com/vi/_T07_RPgyNc/hqdefault.jpg)](https://youtu.be/_T07_RPgyNc "BABYLON PRESENTATION")
