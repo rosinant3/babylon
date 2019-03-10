@@ -10,4 +10,4 @@ Made in Node.js and React.js/Redux.js.
 Quick rundown is shown in the video below:
 
 
-[![Iris](https://i.ytimg.com/vi/AVrRra4G8Rk/hqdefault.jpg)](https://www.youtube.com/watch?v=AVrRra4G8Rk "IRIS PRESENTATION")
+[![Babylon](https://www.youtube.com/upload_thumbnail?v=_T07_RPgyNc&t=3)](https://youtu.be/_T07_RPgyNc "BABYLON PRESENTATION")
