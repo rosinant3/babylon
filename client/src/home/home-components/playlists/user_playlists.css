@@ -1,0 +1,483 @@
+.play-link {
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.play-link > i {
+
+	align-self: center;
+	color: black;
+	font-size: 1.555rem;
+	
+
+
+}
+
+.user-library {
+
+		text-align: center;
+			
+}
+
+.library-form {
+	
+		display: inline-block;
+		padding: 1rem;
+			
+}
+
+.left-border-radius {
+
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+}
+
+.right-border-radius {
+
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+}
+
+.library-form > div {
+
+	border-radius: 5px;
+	display: block;
+
+}
+
+.library-form > div > label {
+	
+	color: white;
+	padding: 0.5rem;
+	background-color: rgba(114, 29, 114, 0.6);
+	cursor: pointer;
+	transition-property: background-color;
+	transition-duration: 500ms;
+	font-family: inherit;
+	
+}
+
+.library-form > label:hover {
+
+	background-color: rgba(114, 29, 114, 1);
+
+}
+
+.library-form > div {
+	
+	display: inline-block;
+	
+}
+
+.library-form > div > input {
+
+	padding: 0.5rem;
+	border-width: 1px;
+	font-family: inherit;
+	display: inline-block;
+	font-size: 0.91rem;
+	color: black;
+	border-style: none;
+	
+}
+
+.button-form-library {
+	
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	
+}
+
+.library-form > div > input::placeholder {
+
+	color: rgba(114, 29, 114, 0.6);
+
+}
+
+.user-playlists {
+	
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+	margin-bottom: 1rem;
+	word-break: break-all;
+	word-break: break-word;
+	
+	
+	
+}
+
+.playlist-image {
+
+	position: relative;
+	display: block;
+	cursor: pointer;
+	
+}
+
+.playlist-image > i {
+	
+	position: absolute;
+	z-index: 10;
+	right: 15px;
+	bottom: 5px;
+	color: white;
+	font-size: 1.333rem;
+	background-color: rgba(148,0,211, 0.50);
+	border-radius: 5px;
+	padding: 0.5rem;
+	opacity: 0;
+	transition-property: opacity, bottom, background-color;
+	transition-duration: 200ms;
+	
+}
+
+
+
+.playlist-image > a > i {
+	
+	position: absolute;
+	z-index: 10;
+	right: 15px;
+	bottom: 5px;
+	color: white;
+	font-size: 1.333rem;
+	background-color: rgba(148,0,211, 0.50);
+	border-radius: 5px;
+	padding: 0.5rem;
+	opacity: 0;
+	transition-property: opacity, bottom, background-color;
+	transition-duration: 200ms;
+	
+}
+
+.playlist-image:hover > i {
+	
+	opacity: 1;
+	bottom: 15px;
+	
+}
+
+
+.playlist-image:hover > a > i {
+	
+	opacity: 1;
+	bottom: 15px;
+	
+}
+
+.playlist-image > i:hover {
+	
+		background-color: rgba(148,0,211, 1);
+	
+}
+
+.playlist-image > a > i:hover {
+	
+		background-color: rgba(148,0,211, 1);
+	
+}
+
+.playlist-full {
+	
+	opacity: 0;
+	margin-bottom: 1rem;
+
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.playlist-image > img {
+	
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+	
+}
+
+.playlist-image > div {
+
+	background-color: rgba(114, 29, 114, 0.6);
+	position: absolute;
+	top: 0px;
+	bottom: 4px;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	text-align: center;
+	vertical-align: center;
+	justify-content: center;
+	transition-property: background-color;
+	transition-duration: 1s;
+	
+
+}
+
+.playlist-image > div:hover {
+	
+	background-color: rgba(114, 29, 114, 0.95);
+	
+}
+
+.fa-play {
+	
+	position: absolute;
+	left: 40%;
+	font-size: 2rem;
+	
+}
+
+.playlist-info > div {
+	
+		padding-left: 0.5rem;
+		padding-bottom: 0.2rem;
+		padding-top: 0.2rem;
+		padding-right: 0.5rem;
+		
+}
+
+.playlist-info {
+
+	overflow-wrap: break-word;
+
+}
+
+.playlist-info > .p-title {
+	
+		font-weight: bold;
+		font-size: 1.1rem;
+		margin-top: 0.2rem;
+		
+
+}
+
+.p-title > .p-videos {
+	
+		display: inline-block;
+		font-size: 0.8rem;
+		font-weight: 300;
+
+}
+
+.playlist-info > .p-category {
+	
+	color: rgba(114, 29, 114, 0.95);
+	font-weight: bold;
+	display: block;
+	
+	
+}
+
+.playlist-info > .p-created {
+	
+		font-size: 0.8rem;
+		font-weight: 300;
+	
+}
+
+.playlist-info > .p-public {
+	
+		font-size: 0.8rem;
+		font-weight: 300;
+	
+}
+
+.shot-caller {
+	
+	width: 100%;
+	height: 10%;
+	
+}
+
+
+@media only screen and (max-width: 900px) {
+  
+  .user-playlists {
+	
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
+  
+  
+}
+
+@media only screen and (max-width: 700px) {
+  
+  .user-playlists {
+	
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+.library-form {
+	
+		display: block;
+		padding-left: 0rem;
+		
+	
+}
+  
+
+.library-form > div {
+
+	margin-bottom: 1rem;
+
+}
+  
+}
+
+@media only screen and (max-width: 500px) {
+  
+  .user-playlists {
+	
+	grid-template-columns: 1fr;
+	
+}
+
+
+.playlist-info > .p-title {
+	
+		font-size: 1.4rem;
+
+}
+
+.library-form > div  {
+	
+		
+	
+}
+
+.library-form {
+	
+		text-align: center;
+	
+}
+    
+}
+
+
+.lds-default {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  transform: scale(0.7);
+
+}
+.lds-default div {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: purple;
+  border-radius: 50%;
+  animation: lds-default 1.2s linear infinite;
+}
+.lds-default div:nth-child(1) {
+  animation-delay: 0s;
+  top: 29px;
+  left: 53px;
+}
+.lds-default div:nth-child(2) {
+  animation-delay: -0.1s;
+  top: 18px;
+  left: 50px;
+}
+.lds-default div:nth-child(3) {
+  animation-delay: -0.2s;
+  top: 9px;
+  left: 41px;
+}
+.lds-default div:nth-child(4) {
+  animation-delay: -0.3s;
+  top: 6px;
+  left: 29px;
+}
+.lds-default div:nth-child(5) {
+  animation-delay: -0.4s;
+  top: 9px;
+  left: 18px;
+}
+.lds-default div:nth-child(6) {
+  animation-delay: -0.5s;
+  top: 18px;
+  left: 9px;
+}
+.lds-default div:nth-child(7) {
+  animation-delay: -0.6s;
+  top: 29px;
+  left: 6px;
+}
+.lds-default div:nth-child(8) {
+  animation-delay: -0.7s;
+  top: 41px;
+  left: 9px;
+}
+.lds-default div:nth-child(9) {
+  animation-delay: -0.8s;
+  top: 50px;
+  left: 18px;
+}
+.lds-default div:nth-child(10) {
+  animation-delay: -0.9s;
+  top: 53px;
+  left: 29px;
+}
+.lds-default div:nth-child(11) {
+  animation-delay: -1s;
+  top: 50px;
+  left: 41px;
+}
+.lds-default div:nth-child(12) {
+  animation-delay: -1.1s;
+  top: 41px;
+  left: 50px;
+}
+@keyframes lds-default {
+  0%, 20%, 80%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+.center {
+
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 744px) {
+
+	.user-library {
+
+		text-align: center;
+		padding-top: 1rem;
+			
+	}
+
+}
+  
+
+
+

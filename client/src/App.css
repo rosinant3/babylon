@@ -1,0 +1,511 @@
+/* 
+
+TABLE OF CONTENTS:
+
+1.0 LOGIN AND SING UP SCREEN
+
+*/
+
+/* 1.0 LOGIN SING UP SCREEN CSS */
+
+body {
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+	
+
+} 
+
+.screen {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 20% 60%;
+    background-image: url("./components/css/img/pexels-photo-735987.jpeg");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.presentation {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    max-height: 20vh;
+
+}
+
+.presentation > h1 {
+
+    font-size: 3.5rem;
+    display: block;
+    margin: 0px;
+    color: rgb(58, 14, 58);
+    font-weight: 350;
+
+}
+
+.presentation > h3 {
+
+    display: block;
+    margin: 0px;
+    color: rgb(58, 14, 58);
+    font-weight: 500;
+
+}
+
+.enterence {
+
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    max-height: 60vh;
+
+}
+
+.header {
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    max-height: 20vh;
+
+}
+
+.Login > form {
+
+    /* display: flex;
+    flex-direction: column; FOR SMALLER SCREENS*/
+    margin-top: 2rem;
+    margin-right: 2rem;
+
+}
+
+.Login > form > label > input {
+
+  /*  display: flex;
+    flex-direction: column; FOR SMALL SCREENS*/
+    margin-right: 1rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: inherit;
+    padding-left: 0.8rem;
+    color: rgb(114, 29, 114);
+    transition-property: color;
+    transition-duration: 0.5s;
+
+}
+
+.Login > form > input {
+
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgb(114, 29, 114);
+    font-family: inherit;
+    color: white;
+    font-weight: 600;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    cursor: pointer;
+
+}
+
+.Login > form > input:hover {
+
+    background-color: rgb(146, 46, 146);
+
+}
+
+.Login > form > label > input::placeholder {
+
+    color: rgb(114, 29, 114);
+
+}
+
+.CreateUser  {
+
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.CreateUser > div > form  {
+
+    width: 13rem;
+    margin: auto;
+
+}
+
+.CreateUser > div > form > label {
+
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+ 
+}
+
+.CreateUser > div > form > label > input {
+
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: inherit;
+    color: rgb(114, 29, 114);
+    padding-left: 0.8rem;
+
+}
+
+.CreateUser > div > form > label > input::placeholder {
+
+    color: rgb(114, 29, 114);
+
+}
+
+
+
+.singupb {
+
+    background-color: rgb(114, 29, 114);
+    color: white !important;
+    font-weight: 600;
+    cursor: pointer;
+	transition-property: background-color;
+	transition-duration: 500ms;
+
+}
+
+.singupb:hover {
+
+    background-color: rgb(146, 46, 146);
+
+}
+
+.errorHandler {
+
+    width: 10rem;
+    color: rgb(85, 14, 14);
+    left: 15rem;
+    font-weight: 500;
+    padding: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.596);
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+
+}
+
+.errorHandler > p {
+
+    display: block;
+
+}
+
+.fadeOut{
+
+    display: none;
+    
+}
+
+.fadeIn{
+
+    display: block;
+
+}
+
+.emailerror {
+
+    color: red !important;
+	transition-property: color;
+	transition-duration: 0.5s;
+
+}
+
+
+.emailerror::placeholder {
+
+    color: red !important;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .Login > label {
+
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+    
+    }
+
+    .Login > form {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-right: 0rem;
+        
+    }
+
+    .Login > form > label > input {
+    
+        display: flex;
+        flex-direction: column;
+        margin-right: 0rem;
+        margin-bottom: 0.2rem;
+
+    
+    }
+
+    .Login > form > input {
+
+        margin-right: 0rem;
+    
+    }
+
+    .header {
+
+        align-items: center;
+        
+
+    }
+
+}
+
+/* 1.0 END OF LOGIN SINGUP SCREEN */
+
+
+
+/* 2.0 E-Mail Verification */
+
+.waiting {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(26, 84, 99);
+
+}
+
+.waiting > h1 {
+
+    font-size: 3rem;
+    display: block;
+    font-weight: 300;
+    margin: 0rem;
+    padding: 0rem;
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.waiting > h2 {
+
+    display: block;
+    margin: 0rem;
+    padding: 0rem;
+    font-weight: 300;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+/* blatantly copied loading dots from a fine man */
+
+.loading-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+
+  }
+  .loading-dots .dot {
+    display: inline;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    position: relative;
+    top: -1em;
+    font-size: 3rem;
+    opacity: 0;
+    -webkit-animation: showHideDot 2.5s ease-in-out infinite;
+            animation: showHideDot 2.5s ease-in-out infinite;
+  }
+  .loading-dots .dot.one {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+  }
+  .loading-dots .dot.two {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+  }
+  .loading-dots .dot.three {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+  }
+  
+  @-webkit-keyframes showHideDot {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes showHideDot {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+/* END OF E-MAIL VERIFICATION */
+
+/* 3.0 TOOLS GRID */
+
+.tool-grid {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+
+}
+
+.blu {
+
+    color: rgb(119, 66, 119);
+    font-size: 4rem;
+    cursor: pointer;
+    transition: color, 1s;
+
+}
+
+.blu:hover {
+
+    color: rgba(119, 66, 119, 0.5);
+    
+}
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -3px 0 0 -3px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 50px;
+  left: 50px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 54px;
+  left: 45px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 57px;
+  left: 39px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 58px;
+  left: 32px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 57px;
+  left: 25px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 54px;
+  left: 19px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 50px;
+  left: 14px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 45px;
+  left: 10px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

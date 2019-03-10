@@ -1,0 +1,99 @@
+.closeEditor {
+
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	font-size: 1rem;
+	z-index: 1;
+	cursor: pointer;
+
+}
+
+.edit-videos {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.editor-header {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	padding: 0.5rem;
+	margin-bottom: 2rem;
+	
+}
+
+.editor-header > b {
+	
+	color: purple;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+	
+}
+
+.editor-header > span {
+	
+	color: purple;
+	padding: 0.2rem;
+	font-size: 1rem;
+	
+}
+
+.editor-header > span > input {
+	
+	color: purple;
+	padding: 0.5rem;
+	border-radius: 5px;
+	font-size: 1rem;
+	text-align: center;
+	font-family: inherit;
+	border-style: none;
+	
+}
+
+.remove-button {
+
+	color: purple;
+	cursor: pointer;
+
+
+
+}
+
+.editor-header > div {
+	
+	width: 50%;
+	padding: 0.2rem;
+	border-style: none;
+	margin: auto;
+	color: purple;
+	margin-bottom: 0.5rem;
+	
+}
+
+.editor-header > div > span {
+	
+
+	font-size: 0.8rem;
+	
+}
+
+
+.editor-header > div > textarea {
+	
+	width: 100%;
+	display: block;
+	height: 200px;
+	padding: 1rem;
+	font-style: inherit;
+	font-size: 1rem;
+	color: purple;
+	
+}
+
+

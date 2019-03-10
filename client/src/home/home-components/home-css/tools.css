@@ -1,0 +1,63 @@
+.controllers {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: purple;
+
+}
+
+.controllers > span {
+
+    margin-right: 1rem;
+    margin-left: 1rem;
+    cursor: default;
+
+}
+
+.controllers > p {
+
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity, 1s;
+
+}
+
+.controllers > p:hover {
+
+    opacity: 0.5;
+
+}
+
+.welcome-user {
+
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    cursor: default;
+
+}
+
+.opacity {
+
+    opacity: 0.7;
+
+}
+
+.tools-containaer {
+
+    display: grid;
+
+}
+
+@media only screen and (max-width: 670px) {
+  
+	.controllers {
+
+    		flex-direction: column;
+
+	}
+
+}

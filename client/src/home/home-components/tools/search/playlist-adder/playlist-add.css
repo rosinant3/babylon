@@ -1,0 +1,105 @@
+.playlist-overlay {
+
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    top: 0px;
+    bottom: 3px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    transition-property: background-color;
+    transition-duration: 1s;
+
+}
+
+.playlist-overlay > p {
+
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    transition-property: opacity;
+    transition-duration: 1s;
+    align-self: center;
+    margin: auto;
+
+}
+
+
+.playlist-overlay:hover  {
+
+    background-color: rgba(58, 13, 58, 0.6);
+
+}
+
+.playlist-overlay:hover > p {
+
+    opacity: 1;
+
+}
+
+.playlist-video-list {
+
+    position: fixed;
+    left: 54%;
+    top: 0px;
+    z-index: 2;
+    height: 100vh;
+    right: 0px;
+    background-color: white;
+    cursor: default;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-left-width: 10px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.playlist-info > h1 {
+
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.playlist-info > span {
+
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+.close-playlist {
+
+    position: fixed;
+    display: block;
+    font-size: 1.3rem;
+    z-index: 20;
+    right: 2rem;
+    padding: 0.5rem;
+    top: 0.5rem;
+    color: rgb(58, 14, 58, 1);
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(58, 14, 58, 0);
+    transition-property: color, background-color;
+    transition-duration: 1s;
+
+}
+
+.close-playlist:hover {
+
+    background-color: rgb(58, 14, 58, 1);
+    color: white;
+
+}
+

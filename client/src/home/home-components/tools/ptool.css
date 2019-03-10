@@ -1,0 +1,213 @@
+.playlist-complete {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+.playlist-item {
+
+    padding: 0.7rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: row;
+    word-wrap: break-word;
+    cursor: grabbing;
+    z-index: 1000;
+    opacity: 1;
+    transition-property: background-color, opacity;
+    transition-duration: 1s;
+    display: flex;
+    color: purple;
+
+}
+
+.playlist-item:hover {
+
+    background-color: rgb(58, 14, 58);
+    color: white;
+
+
+}
+
+.playlist-item > span {
+
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    width: 10%;
+    pointer-events: none;
+    align-self: center;
+    transition-property: color;
+    transition-duration: 1s;
+
+}
+
+.playlist-item > h1 {
+
+    display: inline-block;
+    padding: 0.5rem;
+    width: 80%;
+    pointer-events: none;
+    font-size: 1rem;
+    align-self: center;
+    margin: 0px;
+    transition-property: color;
+    transition-duration: 1s;
+
+}
+
+.playlist-item > img {
+	
+     pointer-events: none;	
+		
+}
+
+.playlist-item > div {
+
+    display: inline-block;
+    padding: 0.5rem;
+    width: 5%;
+    align-self: center;
+
+}
+
+.playlist-item > div > i {
+
+    cursor: pointer;
+    font-size: 1rem;
+    transition-property: color;
+    transition-duration: 1s;
+
+}
+
+.real-playlist > span {
+
+    display: block;
+ 
+    text-align: center;
+    padding: 0.5rem;
+	z-index: -1;
+    background-color: purple;
+	font-weight: bold;
+    color: white;
+	transition-property: color;
+	transition-duration: 0.5s;
+	cursor: default;
+
+}
+
+.playlist-form {
+
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-family: inherit;
+
+}
+
+.playlist-form > textarea {
+	
+	font-family: inherit;
+	
+}
+
+.playlist-form > input {
+	
+	font-family: inherit;
+	
+}
+
+.playlist-form > input {
+
+    display: block;
+    padding: 0.4rem;
+    border-width: 1px;
+    border-radius: 5px;
+    color: purple;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+
+}
+
+
+.radio {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5rem;
+	
+}
+	
+
+.playlist-form > textarea {
+
+    display: block;
+    padding: 0.4rem;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    color: purple;
+
+}
+
+.playlist-form > textarea::placeholder {
+
+   color: purple;
+
+}
+
+.real-playlist {
+
+
+	position: relative;
+	display: block;
+
+}
+
+.playlist-form > input::placeholder {
+
+    color: purple;
+
+}
+
+.ply-items {
+
+    background-color: white;
+    color: purple;
+    position: relative;
+    height: auto;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    background-color: purple;
+    font-weight: bold;
+
+}
+
+.dragged {
+
+    display: none;
+
+}
+
+
+
+@media only screen and (max-width: 950px) {
+  
+	.playlist-complete {
+
+    		display: grid;
+    		grid-template-columns: 1fr;
+    		grid-template-rows: auto;
+
+	}
+
+}

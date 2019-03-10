@@ -1,0 +1,46 @@
+.playlist-search {
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(58, 14, 58);
+    position: relative;
+
+} 
+
+.search-title {
+
+    text-align: center;
+    padding: 0.5rem;
+    cursor: default;
+    color: white;
+    background-color: purple;
+    display: block;
+    font-weight: bold;
+
+}
+
+.search-selected {
+
+    color: white;
+    background-color: purple;
+    font-weight: bold;
+
+}
+
+.search-selection > span {
+
+    display: inline-block;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+    font-weight: bold;
+
+}
+
+.search-selection > span:hover {
+
+    color: white;
+    background-color: purple;
+
+}
