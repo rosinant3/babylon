@@ -5,5 +5,5 @@ Small article reader with library to store longform news articles and take notes
 
 Made in Node.js and React.js/Redux.js.
 
-![Babylon]("https://i.imgur.com/hFp03Nb.png")
+![Babylon](https://i.imgur.com/hFp03Nb.png)
 
