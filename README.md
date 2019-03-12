@@ -3,7 +3,7 @@
 Playlist maker and playlist player for YouTube videos that compliments educational content. 
 Small article reader with library to store longform news articles and take notes or add additional information. 
 
-Made with Node.js and React.js/Redux.js.
+Made with Node.js and React.js/Redux.js. MySQL database.
 
 ![Babylon](https://i.imgur.com/hFp03Nb.png)
 
