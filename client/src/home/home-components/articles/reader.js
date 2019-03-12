@@ -909,19 +909,19 @@ class Reader2 extends Component {
 
 			if (this.state.editTitle) {
 
-				title = <input ref={this.titleInput} name="title" onKeyPress={(e)=>{this.doneEditingEnter(e)}} onBlur={this.doneEditing} className="reader-input-title" defaultValue={this.state.article.title} type="text" />;
+				title = <input ref={this.titleInput} name="title" onKeyDown={(e)=>{this.doneEditingEnter(e)}} onBlur={this.doneEditing} className="reader-input-title" defaultValue={this.state.article.title} type="text" />;
 
 			}
 
 			if (this.state.editCategory) {
 
-				category = <input ref={this.categoryInput} name="category" onKeyPress={(e)=>{this.doneEditingEnter(e)}} onBlur={this.doneEditing} className="reader-input-category" defaultValue={this.state.article.category} type="text" />;
+				category = <input ref={this.categoryInput} name="category" onKeyDown={(e)=>{this.doneEditingEnter(e)}} onBlur={this.doneEditing} className="reader-input-category" defaultValue={this.state.article.category} type="text" />;
 
 			}
 
 			if (this.state.editThumbnail) {
 
-				thumbnail = <input ref={this.thumbnailInput} name="thumbnail" onKeyPress={(e)=>{this.doneEditingEnter(e)}} onBlur={this.doneEditing} className="reader-input-category" defaultValue={this.state.article.thumbnail} type="text" />;
+				thumbnail = <input ref={this.thumbnailInput} name="thumbnail" onKeyDown={(e)=>{this.doneEditingEnter(e)}} onBlur={this.doneEditing} className="reader-input-category" defaultValue={this.state.article.thumbnail} type="text" />;
 
 			}
 
