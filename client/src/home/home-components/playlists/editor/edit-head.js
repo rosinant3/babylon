@@ -375,19 +375,19 @@ class EditorHead2 extends Component {
 			
 			if (this.state.editTitle) {
 				
-				title = <input ref={this.titleInput} name="title" onKeyPress={this.handleKeyPress} onBlur={this.dontEditTitle} 						type="text" defaultValue={this.state.title} />
+				title = <input ref={this.titleInput} name="title" onKeyDown={this.handleKeyPress} onBlur={this.dontEditTitle} 						type="text" defaultValue={this.state.title} />
 				
 			}
 			
 			if (this.state.editCategory) {
 				
-				category = <input name="category" ref={this.titleInput} onKeyPress={this.handleKeyPress} 							onBlur={this.dontEditTitle} type="text" defaultValue={this.state.category} />
+				category = <input name="category" ref={this.titleInput} onKeyDown={this.handleKeyPress} 							onBlur={this.dontEditTitle} type="text" defaultValue={this.state.category} />
 				
 			}
 			
 			if (this.state.editDescription) {
 				
-				description = <textarea name="description" ref={this.titleInput} onKeyPress={this.handleKeyPress} 					onBlur={this.dontEditTitle} defaultValue={this.state.description} ></textarea>
+				description = <textarea name="description" ref={this.titleInput} onKeyDown={this.handleKeyPress} 					onBlur={this.dontEditTitle} defaultValue={this.state.description} ></textarea>
 				
 				
 			}
