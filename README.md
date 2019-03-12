@@ -10,22 +10,40 @@ Made in Node.js and React.js/Redux.js.
 Quick rundown is shown in the video below:
 
 
+[Babylon Presentation](https://youtu.be/_T07_RPgyNc"IRIS PRESENTATION")
 [![Babylon](https://i.ytimg.com/vi/_T07_RPgyNc/hqdefault.jpg)](https://youtu.be/_T07_RPgyNc "BABYLON PRESENTATION")
 
+Pictures:
+
+1.
 
 ![Babylon](https://i.imgur.com/CiEkP3A.png)
 
-![Babylon](https://i.imgur.com/LZoD9jR.png) 
+2.
+
+![Babylon](https://i.imgur.com/LZoD9jR.png)
+
+3.
 
 ![Babylon](https://i.imgur.com/4zyuz3q.png) 
 
+4.
+
 ![Babylon](https://i.imgur.com/LdRSG8G.png) 
+
+5.
 
 ![Babylon](https://i.imgur.com/d2a3rQM.png) 
 
+6.
+
 ![Babylon](https://i.imgur.com/RLvZr1a.png) 
 
+7.
+
 ![Babylon](https://i.imgur.com/QeozEQv.png) 
+
+8.
 
 ![Babylon](https://i.imgur.com/sTZzD90.png)
 
