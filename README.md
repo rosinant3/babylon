@@ -38,13 +38,9 @@ Pictures:
 
 6.
 
-![Babylon](https://i.imgur.com/RLvZr1a.png) 
-
-7.
-
 ![Babylon](https://i.imgur.com/QeozEQv.png) 
 
-8.
+7.
 
 ![Babylon](https://i.imgur.com/sTZzD90.png)
 
