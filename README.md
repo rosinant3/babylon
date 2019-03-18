@@ -1,6 +1,6 @@
 # Babylon
 
-If you want to run this on your machine, adjust the information in the knexfile.js, run knex migrate:latest, run npm run dev. If you want to host it, you probably know how to do it.
+If you want to run this on your machine, adjust the information in the knexfile.js, run knex migrate:latest, run npm run dev.
 
 Playlist maker and playlist player (for YouTube videos) that compliments educational content. 
 Small article reader with library to store longform news articles and take notes or add additional information. 
