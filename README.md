@@ -10,24 +10,24 @@ Made with Node.js/Express.js and React.js/Redux.js. MySQL database.
 Features:
 
 General:
-   - user registration and login with appropriate validation
-   - public/private playlists/articles with forms to search for all of the possible combinations
-   - pagination of every get request
-   - minimizing the amount of ajax calls, utilizing the redux store to save already made requests, preventing useless calls to be made for data that's already there
-   - playing around with the YouTube API
-   - improving my familiarity with node.js/express.js
-   - improving my mySQL skills
-   - had a lot of fun during the process
+   - user registration and login with appropriate validation;
+   - public/private playlists/articles with forms to search for all of the possible combinations;
+   - pagination of every get request;
+   - minimizing the amount of ajax calls, utilizing the redux store to save already made requests, preventing useless calls to be made for data that's already there;
+   - playing around with the YouTube API;
+   - improving my familiarity with node.js/express.js;
+   - improving my mySQL skills;
+   - had a lot of fun during the process;
 
 Playlists:
-  - creating playlists (adding, removing, drag and drop moving of videos, adding the playlist to the database),
-  - searching for youtube videos, playlists and channels, with the option to open all of the videos of a certain playlist/channel,
-  - editor with similar features,
-  - playlist player, tracking the duration of watched videos, autoplay of next video after the video ends, the player starts with the last watched video, pagination of the player playlist is set to 12, if all of the first 12 videos are watched, a recursive call is made until a video that is not watched is found
-  - comment section under videos for taking notes, with the ability to remove and edit the notes
+  - creating playlists (adding, removing, drag and drop moving of videos, adding the playlist to the database);
+  - searching for youtube videos, playlists and channels, with the option to open all of the videos of a certain playlist/channel;
+  - editor with similar features;
+  - playlist player, tracking the duration of watched videos, autoplay of next video after the video ends, the player starts with the last watched video, pagination of the player playlist is set to 12, if all of the first 12 videos are watched, a recursive call is made until a video that is not watched is found;
+  - comment section under videos for taking notes, with the ability to remove and edit the notes;
   
 Articles:
-  - similar functionality and features (like the playlist maker)
+  - similar functionality and features;
 
 
 ![Babylon](https://i.imgur.com/hFp03Nb.png)
