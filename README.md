@@ -6,9 +6,9 @@ Playlist maker and playlist player (for YouTube videos) that compliments educati
 Small article reader with library to store longform news articles and take notes or add additional information. 
 
 **General**:
-   - react.js with redux.js
-   - node.js/express.js
-   - mySQL with knex.js
+   - React.js with Redux.js;
+   - Node.js/Express.js;
+   - mySQL with Knex.js;
    - user registration and login with appropriate validation;
    - public/private playlists/articles with forms to search for all of the possible combinations;
    - pagination of every get request;
