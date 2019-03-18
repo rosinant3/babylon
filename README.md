@@ -3,16 +3,19 @@
 Playlist maker and playlist player (for YouTube videos) that compliments educational content. 
 Small article reader with library to store longform news articles and take notes or add additional information. 
 
-Made with Node.js and React.js/Redux.js. MySQL database.
+Made with Node.js/Express.js and React.js/Redux.js. MySQL database.
 
 Features:
 
 General:
    - user registration and login with appropriate validation
-   - public/private videos with forms to search for all of the possible combinations
+   - public/private playlists/articles with forms to search for all of the possible combinations
    - pagination of every get request
-   - minimized the amount of ajax calls, utilizing the redux store to save already made requests, preventing useless calls to be made for data that's already there
+   - minimizing the amount of ajax calls, utilizing the redux store to save already made requests, preventing useless calls to be made for data that's already there
    - playing around with the YouTube API
+   - improving my familiarity with node.js/express.js
+   - improving my mySQL skills
+   - had a lot of fun during the process
 
 Playlists:
   - creating playlists (adding, removing, drag and drop moving of videos, adding the playlist to the database),
