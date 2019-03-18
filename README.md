@@ -7,8 +7,6 @@ Small article reader with library to store longform news articles and take notes
 
 Made with Node.js/Express.js and React.js/Redux.js. MySQL database.
 
-Features:
-
 **General**:
    - user registration and login with appropriate validation;
    - public/private playlists/articles with forms to search for all of the possible combinations;
