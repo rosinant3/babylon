@@ -11,12 +11,10 @@ Made with Node.js/Express.js and React.js/Redux.js. MySQL database.
    - user registration and login with appropriate validation;
    - public/private playlists/articles with forms to search for all of the possible combinations;
    - pagination of every get request;
-   - minimizing the amount of ajax calls, utilizing the redux store to save already made requests, preventing useless calls to be made for data that's already there;
-   - playing around with the YouTube API;
-   - improving my familiarity with node.js/express.js;
-   - improving my mySQL skills;
-   - had a lot of fun during the process;
-
+   - react.js with redux.js
+   - node.js/express.js
+   - mySQL with knex.js
+   
 **Playlists**:
   - creating playlists (adding, removing, drag and drop moving of videos, adding the playlist to the database);
   - searching for youtube videos, playlists and channels, with the option to open all of the videos of a certain playlist/channel;
