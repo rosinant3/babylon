@@ -11,7 +11,7 @@ Small article reader with library to store longform news articles and take notes
    - mySQL with Knex.js;
    - user registration and login with appropriate validation;
    - public/private playlists/articles with forms to search for all of the possible combinations;
-   - pagination of every get request;
+   - pagination for every get request;
 
    
 **Playlists**:
