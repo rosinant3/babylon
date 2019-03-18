@@ -5,15 +5,14 @@ If you want to run this on your machine, adjust the information in the knexfile.
 Playlist maker and playlist player (for YouTube videos) that compliments educational content. 
 Small article reader with library to store longform news articles and take notes or add additional information. 
 
-Made with Node.js/Express.js and React.js/Redux.js. MySQL database.
-
 **General**:
-   - user registration and login with appropriate validation;
-   - public/private playlists/articles with forms to search for all of the possible combinations;
-   - pagination of every get request;
    - react.js with redux.js
    - node.js/express.js
    - mySQL with knex.js
+   - user registration and login with appropriate validation;
+   - public/private playlists/articles with forms to search for all of the possible combinations;
+   - pagination of every get request;
+
    
 **Playlists**:
   - creating playlists (adding, removing, drag and drop moving of videos, adding the playlist to the database);
