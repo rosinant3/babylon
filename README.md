@@ -15,8 +15,10 @@ Small article reader with library to store longform news articles and take notes
 
    
 **Playlists**:
-  - Creating playlists (adding, removing, drag and drop moving of videos, adding the playlist to the database);
-  - Editor with similar features;
+  - Creating playlists,
+  - Removing playlist,
+  - Drag and drop moving of videos that utilizes Redux to save the information of the current video being dragged because, usually, JavaScript does not allow it natively (might be highly illigal, but I learned a lot by expirementing with it),
+  - Editor that looks like a copy/paste version of the initial creator, BUT it modifies the database, which required additional tweeking of the code, plus additional back-end code, obviously
   - Searching for youtube videos, playlists and channels, with the option to open all of the videos of a certain playlist/channel;
   - Playlist player
   - Tracking the duration of watched videos
