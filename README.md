@@ -18,11 +18,14 @@ Small article reader with library to store longform news articles and take notes
   - creating playlists (adding, removing, drag and drop moving of videos, adding the playlist to the database);
   - editor with similar features;
   - searching for youtube videos, playlists and channels, with the option to open all of the videos of a certain playlist/channel;
-  - playlist player, tracking the duration of watched videos, autoplay of next video after the video ends, the player starts with the last watched video, pagination of the player playlist is set to 12, if all of the first 12 videos are watched, a recursive call is made until a video that is not watched is found;
+  - playlist player
+  -tracking the duration of watched videos
+  - autoplay of next video after the video ends
+  -the player starts with the last watched video, pagination of the player playlist is set to 12, if all of the first 12 videos are watched, a recursive call is made until a video that is not watched is found;
   - comment section under videos for taking notes, with the ability to remove and edit the notes;
   
 **Articles**:
-  - similar functionality and features;
+  - similar ideas
 
 
 ![Babylon](https://i.imgur.com/hFp03Nb.png)
