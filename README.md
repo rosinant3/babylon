@@ -3,7 +3,7 @@
 If you want to run this on your machine, adjust the information in the knexfile.js, run knex migrate:latest, run npm run dev.
 
 Playlist maker and playlist player (for YouTube videos) that compliments educational content. 
-Small article reader with library to store longform news articles and take notes or add additional information. 
+Small article reader with a library to store long-form news articles and take notes or add additional information. 
 
 **General**:
    - React.js with Redux.js;
@@ -15,16 +15,16 @@ Small article reader with library to store longform news articles and take notes
 
    
 **Playlists**:
-  - Creating playlists,
-  - Removing playlist,
-  - Drag and drop moving of videos that utilizes Redux to save the information of the current video being dragged because, usually, JavaScript does not allow it natively (might be highly illigal, but I learned a lot by expirementing with it),
-  - Editor that looks like a copy/paste version of the initial creator, BUT it modifies the database, which required additional tweeking of the code, plus additional back-end code, obviously
-  - Searching for youtube videos, playlists and channels, with the option to open all of the videos of a certain playlist/channel;
-  - Playlist player
-  - Tracking the duration of watched videos
-  - Autoplay of next video after the video ends
-  - The player starts with the last watched video, pagination of the player playlist is set to 12, if all of the first 12 videos are watched, a recursive call is made until a video that is not watched is found;
-  - Comment section under videos for taking notes, with the ability to remove and edit the notes;
+- Creating playlists,
+- Removing playlist,
+- Drag and drop moving of videos.
+- An editor that looks like a copy/paste version of the initial creator, but it modifies the database, which required additional tweaking of the code, plus additional back-end code, obviously.
+- Searching for YouTube videos, playlists and channels, with the option to open all of the videos of a certain playlist/channel;
+- Playlist player
+- Tracking the duration of watched videos
+- Auto-play of next video after the video ends
+- The player starts with the last watched video, pagination of the player playlist is set to 12, if all of the first 12 videos are watched, a recursive call is made until a video that is not watched is found;
+- The comment section under videos for taking notes, with the ability to remove and edit the notes;
   
 **Articles**:
   - Similar ideas
